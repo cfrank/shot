@@ -42,9 +42,8 @@ int main(int argc, char **argv)
                 case 'o':
                         if (optarg) {
                                 shot_settings->custom_out = optarg;
-                        } else {
-                                shot_settings->custom_out = NULL;
                         }
+
                         break;
                 case 's':
                         shot_settings->type = SCREEN;
