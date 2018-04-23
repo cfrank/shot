@@ -40,7 +40,7 @@ int main(int argc, char **argv)
                         // shot_settings uses FULL as the default value already
                         return EXIT_SUCCESS;
                 case 'o':
-                        if (optarg) {
+                        if (optarg != NULL) {
                                 shot_settings->custom_out = optarg;
                         }
 
@@ -48,7 +48,7 @@ int main(int argc, char **argv)
                 case 's':
                         shot_settings->type = SCREEN;
 
-                        if (optarg) {
+                        if (optarg != NULL) {
                                 shot_settings->screen_num = (int8_t)atoi(optarg);
                         }
 
