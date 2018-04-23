@@ -51,9 +51,8 @@ int main(int argc, char **argv)
 
                         if (optarg) {
                                 shot_settings->screen_num = (int8_t)atoi(optarg);
-                        } else {
-                                shot_settings->screen_num = -1;
                         }
+
                         return EXIT_SUCCESS;
                 case 'v':
                         printf("%d.%d.%d", VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH);
