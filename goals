@@ -1,0 +1,15 @@
+Goals of Shot:
+    - Simply take a screenshot of the entire viewport (default) *
+    - Take a screenshot of a particular screen *
+        - Use the focused screen (default) *
+        - Let the user specify which screen
+    - Take a screenshot with specified dimensions *
+    - Take a screenshot with selected dimensions *
+    - Take a screenshot of the focused window *
+    -------------------------------------------------------------
+    - Do one of the above with a custom file name *
+    - Do one of the above with a specified output directory *
+    - Do one of the above with a delay *
+    - Do one of the above and flush the cli
+
+* Required for 1.0
