@@ -14,7 +14,6 @@ struct setting {
         enum scrot_type type;
         uint32_t timeout;
         int8_t screen_num;
-        bool use_custom_out;
         char *custom_out;
         bool flush;
 };
