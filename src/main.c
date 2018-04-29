@@ -46,7 +46,7 @@ int main(int argc, char **argv)
                                 shot_settings->dimensions = optarg;
                         }
 
-                        return EXIT_SUCCESS;
+                        break;
                 case 'f':
                         shot_settings->flush = true;
                         break;
